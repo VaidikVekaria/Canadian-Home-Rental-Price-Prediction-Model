@@ -1,8 +1,0 @@
-Forward Geocode (Convert human-readable address to coordinates):
-https://geocode.maps.co/search?q=address&api_key=66992dafe112a189439452vcs987e60
-
-To "free form" search for an address, you can pass the address string using the q parameter to the /search endpoint, e.g.:
-
-https://geocode.maps.co/search?q=555+5th+Ave+New+York+NY+10017+US&api_key=api_key
-
-https://geocode.maps.co/account/
