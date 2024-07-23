@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(200, 242, 243);
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.header-container {
+   
+    margin: 25px auto;
+    text-align: center;
+}
+
+.header-container h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header-container p {
+    font-size: 18px;
+    color: #999;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #00698f;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-image: url('https://images.unsplash.com/photo-1578973615934-8d9cdb0792b4?q=80&w=1889&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    height: 71vh; /* adjust the height as needed */
+}
+
+section {
+    background-color: rgba(200, 200, 200, 0.5); /* light grey with 50% opacity */
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #333; /* dark text color */
+}
+#predict-rental-price {
+    text-align: center;
+  }
+  
+#predict-rental-price form {
+    display: block;
+    margin: 0 auto;
+    width: 80%; /* adjust the width as needed */
+    text-align: left;
+  }
+  
+.form-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%; /* adjust the width as needed */
+    margin: 0 20px;
+  }
+
+#predict-rental-price form {
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+
+h2 {
+    margin-top: 0;
+}
+
+button {
+    background-color: #4CAF50;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#estimated_price {
+    font-size: 24px;
+    padding: 10px;
+    font-weight: bold;
+    color: #00698f;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.footer-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+.form-column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+}
+
+.form-column label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-column input, .form-column select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+#predict-home-price-btn {
+    clear: both;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+#predict-home-price-btn:hover {
+    background-color: #3e8e41;
+}
