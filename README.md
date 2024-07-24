@@ -1,7 +1,5 @@
 # Canadian-Home-Rental-Price-Prediction-Model
-Data Science and Machine Learning Project for predicting rental prices for different types of homes in canada.
-
-Web-interface to get price predictions using input paramaters. 
+As part of a real-world project, I developed a web service using Python and Flask to predict home prices in Canada. The application provides an API for estimating home values based on various features such as location, square footage, bedrooms, bathrooms, type, and furnishing.
 ![Capture2](https://github.com/user-attachments/assets/6dff8c04-8ae6-447d-ac39-3ecc5d213ff0)
 
 
