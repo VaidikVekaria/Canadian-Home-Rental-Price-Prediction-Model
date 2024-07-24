@@ -17,8 +17,6 @@ Utilized GridSearch CV to find the best model on the training data and saved the
 Populates the drop down menu for 'type' and 'furnishing'. Using Geocode API, 'Address' is coverted to longitude and latitude which are used as input features for our model. 
 
 ## server/server.py
-Running a flask server with Get and Post Routes. 
-
-Finally deploy flask application on Amazon EC2 intance using Nginx reverse proxy. 
+Running a flask server with Get and Post Routes. Finally deploy flask application on Amazon EC2 intance using Nginx reverse proxy. 
 
 
